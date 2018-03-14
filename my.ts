@@ -1,3 +1,5 @@
+import { Top } from './oops';
+
 let nm: string = 'android'
 let num = 456
 
@@ -24,3 +26,6 @@ class Car {
 
 let cr: Car = new Car()
 let dt: Date = new Date()
+
+let tp : Top = new Top()
+console.log(tp.center())
